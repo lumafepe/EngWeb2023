@@ -1,0 +1,91 @@
+html, body {
+    position: relative;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+body {
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+    letter-spacing: 0.03rem;
+    font-weight: lighter;
+    background-color: white;
+}
+h3 {
+    text-align: center;
+    background-color: white;
+    color: #00A4BD;
+    margin: 0;
+    padding: 10px 0;
+}
+.detailsRow {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    width: auto;
+    min-height: 640px;
+    padding: 20px;
+}
+.detailsCol {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: auto;
+    min-height: 640px;
+    padding: 20px;
+}
+
+.desc {
+    font-weight: normal;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ext {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.connections {
+    width: 900px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.connections a{
+    font-weight: normal;
+
+}
+a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown button{
+    color: black;
+    background-color: cornflowerblue;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: max-content;
+    overflow: auto;
+    background-color: aquamarine;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .centered {
+    display: flex;
+    align-items: center;
+}
