@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Joaquim"
+    },
+    {
+      "id": 2,
+      "nome": "João"
+    },
+    {
+      "id": 3,
+      "nome": "José"
+    },
+    {
+      "id": 4,
+      "nome": "Jorge"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "done": true,
+      "dueDate": "2023-05-04T23:15:30.000Z",
+      "user": 1,
+      "desc": "uma tarefa a faser"
+    },
+    {
+      "id": 2,
+      "done": false,
+      "dueDate": "2023-05-04T23:15:30.000Z",
+      "user": 2,
+      "desc": "uma tarefa a fazer"
+    },
+    {
+      "done": false,
+      "dueDate": "2020-04-05",
+      "user": "4",
+      "desc": "algo idk what",
+      "id": 3
+    },
+    {
+      "done": false,
+      "dueDate": "2026-05-06",
+      "user": "1",
+      "desc": "wtf",
+      "id": 4
+    },
+    {
+      "done": false,
+      "dueDate": "2023-03-31",
+      "user": "1",
+      "desc": "ola",
+      "id": 5
+    },
+    {
+      "done": false,
+      "dueDate": "2023-03-31",
+      "user": "4",
+      "desc": "ola",
+      "id": 6
+    },
+    {
+      "done": false,
+      "dueDate": "",
+      "desc": "",
+      "id": 7
+    },
+    {
+      "done": false,
+      "dueDate": "",
+      "desc": "",
+      "id": 8
+    },
+    {
+      "done": false,
+      "dueDate": "",
+      "desc": "",
+      "id": 9
+    },
+    {
+      "done": false,
+      "dueDate": "2023-03-24",
+      "desc": "uma tarefa a faser",
+      "id": 10
+    },
+    {
+      "done": false,
+      "dueDate": "2023-03-24",
+      "desc": "uma tarefa a faser",
+      "id": 11
+    }
+  ]
+}
