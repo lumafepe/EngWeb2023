@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Joaquim"
+    },
+    {
+      "id": 2,
+      "nome": "João"
+    },
+    {
+      "id": 3,
+      "nome": "José"
+    },
+    {
+      "id": 4,
+      "nome": "Jorge"
+    }
+  ],
+  "tasksToDo": [
+    {
+      "dueDate": "2023-04-05",
+      "user": "1",
+      "desc": "uma tarefa a n fazer",
+      "id": 1
+    },
+    {
+      "dueDate": "4444-04-04",
+      "user": "3",
+      "desc": "1234",
+      "id": 4
+    },
+    {
+      "dueDate": "5555-04-05",
+      "user": "2",
+      "desc": "123",
+      "id": 5
+    }
+  ],
+  "tasksDone": [
+    {
+      "dueDate": "5555-05-05",
+      "user": "1",
+      "desc": "123",
+      "id": 1
+    }
+  ]
+}
