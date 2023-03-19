@@ -90,23 +90,22 @@ exports.markAsDone = (id, extraValues, callback) => {
         .then(function (resp) {
             axios.delete('http://localhost:3000/tasksToDo/'+id)
                 .then((resp2) => {
-                    callback(extraValues)
-                })
-                .catch(erro => {
-                    console.log("Error creating task: " + erro)
-                    callback(extraValues)
-                })
-            axios.post('http://localhost:3000/tasksDone/',
-                {
-                    "dueDate": resp.data.dueDate,
-                    "user": resp.data.user,
-                    "desc": resp.data.desc
-                })
-                .then((resp2) => {
-                    callback(extraValues)
-                })
-                .catch(erro => {
-                    console.log("Error creating task: " + erro)
+                    axios.post('http://localhost:3000/tasksDone/',
+                        {
+                            "dueDate": resp.data.dueDate,
+                            "user": resp.data.user,
+                            "desc": resp.data.desc
+                        })
+                        .then((resp3) => {
+                            callback(extraValues)
+                        })
+                        .catch(erro2 => {
+                            console.log("Error creating task: " + erro2)
+                            callback(extraValues)
+                        })
+                    })
+                .catch(erro2 => {
+                    console.log("Error creating task: " + erro2)
                     callback(extraValues)
                 })
         })
